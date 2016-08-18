@@ -1,7 +1,7 @@
-function Telefon(marka, cena, kolor) {
+function Telefon(marka, kolor, cena) {
 	this.marka = marka;
-	this.cena = cena;
 	this.kolor = kolor;
+	this.cena = cena;
 }
 
 Telefon.prototype.printInfo = function() {
